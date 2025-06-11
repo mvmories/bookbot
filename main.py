@@ -26,7 +26,7 @@ def print_report(book_path, num_words, chars_sorted_list):
     print("----------- Character Count ----------")
     for dict in chars_sorted_list:
         if dict["char"].isalpha():
-            print(f"{dict["char"]}: {dict["num"]}")
+            print(f"{dict['char']}: {dict['num']}")
     print("============= END ===============")
 
 
